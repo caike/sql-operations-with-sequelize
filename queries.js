@@ -4,6 +4,8 @@ async function run() {
   const pool = new Pool({
     host: '',
     database: '',
+    user: '',
+    password: '',
   });
 
   // const result = await pool.query(
